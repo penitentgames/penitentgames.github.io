@@ -8,7 +8,6 @@ body {
 
 .strip-container {
     position: relative;
-    /*padding: 12px;*/
     width: 100%;
 }
 
@@ -27,15 +26,37 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.strip p {
+    line-height: 1.5em;
+}
+
 /* The Last Paladin */
 .strip-container:nth-child(2) {
-    background-color: #222425; /*#1e1a16;*/
-    height: 400px;
+    background-color: #1f1f1e; /*#1e1a16;*/
+    height: 500px;
+}
+.strip-container:nth-child(2) img {
+    width: 90vw;
+    max-width: 791px;
+    height: auto;
 }
 
 /* Cipher Punk */
 .strip-container:nth-child(3) {
-    height: 200px;
+    background-color: black;
+    height: 500px;
+}
+.strip-container:nth-child(3) img {
+    width: 90vw;
+    max-width: 765px;
+    height: auto;
+    position: relative;
+    
+}
+
+.strip-container:nth-child(4) {
+    height: 300px;
+    transform-origin: ;
 }
 
 h2 {
@@ -50,7 +71,7 @@ p {
 }
 
 #heading {
-    height: 500px;
+    height: 600px;
     /*height: 100vh;*/
 }
 
@@ -69,4 +90,9 @@ p {
     color: #a7a490;
     white-space: nowrap;
     /*text-shadow: 2px 2px 5px #69331b;*/
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35pt;
 }
