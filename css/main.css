@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    width: 100%;
 }
 
 .strip-container {
     position: relative;
-    min-height: 300px;
+    /*padding: 12px;*/
+    width: 100%;
 }
 
 .strip {
@@ -15,8 +17,9 @@ body {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    
-    width: 100%;
+    width: auto;
+    width: -webkit-fill-available;
+    width: -moz-available;
     margin: 0;
     padding: 12px;
     text-align: center;
@@ -26,6 +29,11 @@ body {
 
 .strip-container:nth-child(2) {
     background-color: #1e1a16;
+    height: 300px;
+}
+
+.strip-container:nth-child(3) {
+    height: 200px;
 }
 
 h2 {
@@ -36,10 +44,12 @@ p {
     max-width: 700px;
     text-align: justify;
     margin: 0 auto;
+    padding: 0;
 }
 
 #heading {
     height: 500px;
+    /*height: 100vh;*/
 }
 
 #heading img {
