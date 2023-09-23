@@ -33,30 +33,30 @@ body {
 /* The Last Paladin */
 .strip-container:nth-child(2) {
     background-color: #1f1f1e; /*#1e1a16;*/
-    height: 500px;
+    height: 850px;
 }
 .strip-container:nth-child(2) img {
     width: 90vw;
     max-width: 791px;
     height: auto;
 }
+.strip-container:nth-child(2) p {
+    margin-bottom: 15px;
+}
 
 /* Cipher Punk */
 .strip-container:nth-child(3) {
     background-color: black;
-    height: 500px;
+    height: 800px;
+}
+.strip-container:nth-child(3) p {
+    margin-bottom: 15px;
 }
 .strip-container:nth-child(3) img {
     width: 90vw;
     max-width: 765px;
     height: auto;
     position: relative;
-    
-}
-
-.strip-container:nth-child(4) {
-    height: 300px;
-    transform-origin: ;
 }
 
 h2 {
