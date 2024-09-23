@@ -1,21 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-13V1S04HNQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-13V1S04HNQ');
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
 <div id="heading" class="strip-container">
     <div class="strip">
-        <img alt="logo" src="images/logo.png" />
-        <h1>Penitent Games</h1>
+        <a href="https://penitent.games">
+            <img class="logo" alt="logo" src="images/logo-250.png" />
+            <h1>Penitent Games</h1>
+        </a>
     </div>
 </div>
-<div class="strip-container">
+<div class="strip-container in-development">
     <div class="strip">
-        <h2>The Last Paladin</h2>
+        <h2>In Development</h2>
+    </div>
+</div>
+<div class="strip-container cipher-punk">
+    <div class="strip">
+        <img alt="Cipher Punk" src="images/cipher-punk-title.png" />
+        <p>
+            Locked out of the system and facing eminent assimilation, you must hack to survive.
+            Unlock hidden abilities, build your forces, fight the AI overlords... or each other,
+            who cares?  You have free will... for now.
+        </p>
+        <div id="cipher-punk-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#cipher-punk-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="1"></button>
+                <button type="button" data-bs-target="#cipher-punk-carousel" data-bs-slide-to="1" aria-label="2"></button>
+<!--                <button type="button" data-bs-target="#cipher-punk-carousel" data-bs-slide-to="2" aria-label="3"></button>-->
+<!--                <button type="button" data-bs-target="#cipher-punk-carousel" data-bs-slide-to="3" aria-label="4"></button>-->
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <iframe id="ytplayer" type="text/html" width="850" height="478"
+                            src="https://www.youtube.com/embed/k487_DLk7B0?autoplay=1&origin=https://penitent.games"
+                            frameborder="0"></iframe>
+                </div>
+                <div class="carousel-item">
+                    <img alt="1" src="images/cipher-punk/1.png" />
+                </div>
+
+                <!-- Left and right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#cipher-punk-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cipher-punk-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="strip-container the-last-paladin">
+    <div class="strip">
+        <img alt="The Last Paladin" src="images/the-last-paladin-title.png" />
         <p>
             In this Groundhog Day from Hell, you play as the last of an order of holy warriors sworn to
             protect the once great kingdom of Prav.  Slay demons and uncover hidden abilities as you
@@ -24,16 +83,67 @@
             Act fast as the dark lord Daal and his forces grow stronger by the minute.
             Offer prayers at shrines to receive blessings and find memory stones to remember them when you die.
         </p>
+        <div id="last-paladin-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="1"></button>
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="1" aria-label="2"></button>
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="2" aria-label="3"></button>
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="3" aria-label="4"></button>
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="4" aria-label="5"></button>
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="5" aria-label="6"></button>
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="6" aria-label="7"></button>
+                <button type="button" data-bs-target="#last-paladin-carousel" data-bs-slide-to="7" aria-label="8"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/the-last-paladin/combat-1.png" alt="Combat" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-last-paladin/combat-2.png" alt="Combat" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-last-paladin/combat-3.png" alt="Combat" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-last-paladin/great-temple-1.png" alt="Great Temple" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-last-paladin/blessings-tree-1.png" alt="Blessings Tree" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-last-paladin/receive-blessing-1.png" alt="Receiving a blessing" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/the-last-paladin/settings.png" alt="Settings" />
+                </div>
+                <div class="carousel-item">
+                    <iframe id="ytplayer" type="text/html" width="850" height="478"
+                            src="https://www.youtube.com/embed/5qO5d1X_LYg?autoplay=1&loop=1&start=7&end=34&origin=https://penitent.games"
+                            frameborder="0"></iframe>
+                </div>
+                
+                <!-- Left and right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#last-paladin-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#last-paladin-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </div>
 </div>
-<div class="strip-container">
+<div id="footer" class="strip-container">
     <div class="strip">
-        <h2>Cipher Punk</h2>
-        <p>
-            Locked out of the system and facing eminent assimilation, you must hack to survive.
-            Unlock hidden abilities, buidl your forces, fight the AI overlords... or each other,
-            who cares?  You have free will, for now.
-        </p>
+        <a href="https://penitent.games">
+            <img class="logo" alt="logo" src="images/logo-250.png" />
+            <h1>Penitent Games</h1>
+        </a>
+        <iframe src="https://cdn.forms-content-1.sg-form.com/66a7c92e-5a6b-11ee-8a3c-06dc0b70ae52"></iframe>
     </div>
 </div>
 </body>
