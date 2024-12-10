@@ -12,10 +12,6 @@ body {
 }
 
 .strip {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     width: auto;
     width: -webkit-fill-available;
     width: -moz-available;
@@ -42,37 +38,35 @@ body {
 
 .in-development h2 {
     color: #a7a490;
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
 }
 
-/* The Last Paladin */
-.strip-container.the-last-paladin {
-    background-color: #1f1f1e; /*#1e1a16;*/
-    height: 850px;
-}
-.strip-container.the-last-paladin .strip {
-    padding-top: 0;
-}
-.strip-container.the-last-paladin img {
-    width: 90vw;
-    max-width: 791px;
-    height: auto;
-}
-.strip-container.the-last-paladin p {
-    margin-bottom: 15px;
+.in-development .strip {
+    height: 100px;
+    padding: 0;
 }
 
 /* Cipher Punk */
-.strip-container.cipher-punk {
-    background-color: black;
-    height: 800px;
+.strip-container.cybordz {
+    background: url("../images/cybordz/background.png") no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1060px;
 }
-.strip-container.cipher-punk .strip {
+.strip-container.cybordz .strip {
+    height: 1060px;
     padding-top: 0;
+    background: url("../images/cybordz/hex.png") repeat fixed top left;
+    background-size: 100px 100px;
 }
-.strip-container.cipher-punk p {
+.strip-container.cybordz p {
     margin-bottom: 15px;
 }
-.strip-container.cipher-punk img {
+.strip-container.cybordz img {
     width: 90vw;
     max-width: 765px;
     height: auto;
@@ -100,8 +94,7 @@ img.logo {
 }
 
 #heading {
-    height: 600px;
-    /*height: 100vh;*/
+    height: 400px;
 }
 
 #heading img {
@@ -150,9 +143,6 @@ h2,h3 {
 #footer .strip {
     width: 600px;
     margin: 0 auto;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 #footer a {
@@ -168,9 +158,15 @@ h2,h3 {
 }
 
 .carousel-inner {
-    left: 50%;
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 100vw;
-    max-width: 850px;
+    /*left: 50%;*/
+    /*-ms-transform: translateX(-50%);*/
+    /*transform: translateX(-50%);*/
+    /*width: 100vw;*/
+    /*max-width: 850px;*/
+    width: 950px;
+    margin: 0 auto;
 }
+
+.cybordz .carousel-inner img {
+    height: 500px;
+} 
