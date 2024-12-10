@@ -118,7 +118,7 @@ a {
 }
 
 #footer {
-    height: 450px;
+    height: 300px;
 }
 
 #footer img {
@@ -143,6 +143,7 @@ h2,h3 {
 #footer .strip {
     width: 600px;
     margin: 0 auto;
+    height: 300px;
 }
 
 #footer a {
@@ -169,4 +170,33 @@ h2,h3 {
 
 .cybordz .carousel-inner img {
     height: 500px;
-} 
+}
+
+#mc_embed_shell {
+    color: #a7a490;
+    float: right;
+    transform: translateY(50%);
+    /*height: 400px;*/
+    /*width: 400px;*/
+    border: 0;
+    text-align: left;
+}
+
+#mc_embed_shell div {
+    display: inline;
+}
+
+#mc_embed_shell div.description {
+    display: block;
+    margin-bottom: 1em;
+    max-width: 400px;
+}
+
+#mc_embed_shell label {
+    margin: 0 5px 0 0;
+}
+
+#mce-responses {
+    margin: 0;
+    display: none;
+}
