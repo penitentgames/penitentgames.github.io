@@ -36,11 +36,12 @@ body {
     padding: 0;
 }
 
-.in-development h2 {
+.in-development .strip h2 {
     color: #a7a490;
     margin: 0;
     padding: 0;
     line-height: 100px;
+    font-family: 'Great Vibes', cursive;
 }
 
 .in-development .strip {
@@ -48,17 +49,17 @@ body {
     padding: 0;
 }
 
-/* Cipher Punk */
+/* Cybordz */
 .strip-container.cybordz {
     background: url("../images/cybordz/background.png") no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1060px;
+    height: 1200px;
 }
 .strip-container.cybordz .strip {
-    height: 1060px;
+    height: 1200px;
     padding-top: 0;
     background: url("../images/cybordz/hex.png") repeat fixed top left;
     background-size: 100px 100px;
@@ -78,8 +79,18 @@ body {
     background-color: #2f2d29;
 }
 
-h2 {
+.strip h2 {
     font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#cybordz .strip-container.cybordz {
+    height: auto;
+}
+
+#cybordz .strip-container.cybordz .strip {
+    height: auto;
+    padding: 100px 0 100px 0;
 }
 
 p {
@@ -118,7 +129,8 @@ a {
 }
 
 #footer {
-    height: 300px;
+    height: 200px;
+    color: #a7a490;
 }
 
 #footer img {
@@ -143,19 +155,15 @@ h2,h3 {
 #footer .strip {
     width: 600px;
     margin: 0 auto;
-    height: 300px;
+    height: auto;
 }
 
 #footer a {
-    float: left;
     margin-top: 30px;
 }
 
-#footer iframe {
-    float: right;
-    height: 450px;
-    width: 400px;
-    border: 0;
+#footer img {
+    margin-bottom: 12px;
 }
 
 .carousel-inner {
@@ -174,12 +182,19 @@ h2,h3 {
 
 #mc_embed_shell {
     color: #a7a490;
-    float: right;
     margin-top: 30px;
     /*height: 400px;*/
     /*width: 400px;*/
     border: 0;
     text-align: left;
+    max-width: 700px;
+}
+
+.cybordz #mc_embed_shell {
+    float: none;
+    color: #eaeaea;
+    text-align: center;
+    margin: 30px auto 30px;
 }
 
 #mc_embed_shell div {
@@ -189,7 +204,6 @@ h2,h3 {
 #mc_embed_shell div.description {
     display: block;
     margin-bottom: 1em;
-    max-width: 400px;
 }
 
 #mc_embed_shell label {
@@ -199,4 +213,19 @@ h2,h3 {
 #mce-responses {
     margin: 0;
     display: none;
+}
+
+#mc_embed_shell input {
+    box-shadow: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+#mc_embed_shell input[type=submit] {
+    background-color: rgb(0, 104, 255);
+    color: white;
+}
+
+#mc_embed_shell input[type=submit]:hover {
+    background-color: rgb(58, 137, 255);
 }
