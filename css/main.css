@@ -148,7 +148,7 @@ h2,h3 {
 
 #footer a {
     float: left;
-    transform: translateY(50%);
+    margin-top: 30px;
 }
 
 #footer iframe {
@@ -175,7 +175,7 @@ h2,h3 {
 #mc_embed_shell {
     color: #a7a490;
     float: right;
-    transform: translateY(50%);
+    margin-top: 30px;
     /*height: 400px;*/
     /*width: 400px;*/
     border: 0;
