@@ -50,6 +50,10 @@ body {
 }
 
 /* Cybordz */
+img.title {
+    padding: 50px;
+}
+
 .strip-container.cybordz {
     background: url("../images/cybordz/background.png") no-repeat fixed center center;
     -webkit-background-size: cover;
@@ -61,7 +65,8 @@ body {
 .strip-container.cybordz .strip {
     height: 1200px;
     padding-top: 0;
-    background: url("../images/cybordz/hex.png") repeat fixed top left;
+    /*background: url("../images/cybordz/hex.png") repeat fixed top left;*/
+    background-color: #070707;
     background-size: 100px 100px;
 }
 .strip-container.cybordz p {
