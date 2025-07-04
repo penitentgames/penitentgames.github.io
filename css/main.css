@@ -52,22 +52,20 @@ body {
 /* Cybordz */
 .cybordz img.title {
     padding: 50px 50px 10px 50px;
-    width: 800px;
+    max-width: 800px;
 }
 
 .strip-container.cybordz {
-    background: url("../images/cybordz/background.png") no-repeat fixed center center;
+    background-color: #070707;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1200px;
+    
+    padding: 1em;
 }
 .strip-container.cybordz .strip {
-    height: 1200px;
-    padding-top: 0;
     /*background: url("../images/cybordz/hex.png") repeat fixed top left;*/
-    background-color: #070707;
     background-size: 100px 100px;
 }
 .strip-container.cybordz p {
@@ -174,7 +172,7 @@ h2,h3 {
 }
 
 #footer .strip {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     height: auto;
 }
@@ -197,9 +195,29 @@ h2,h3 {
     /*transform: translateX(-50%);*/
     /*width: 100vw;*/
     /*max-width: 850px;*/
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
 }
+
+.resizable-iframe {
+    max-width: 650px;
+    margin: 2em auto;
+}
+
+.resizable-iframe > div {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+}
+
+.resizable-iframe iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
 .cybordz .carousel-indicators {
     position: inherit;
 }
@@ -228,7 +246,7 @@ h2,h3 {
 .cybordz h3.subtitle {
     font-style: italic;
     font-size: 13pt;
-    width: 630px;
+    max-width: 630px;
     margin: 15px auto;
     padding-bottom: 20px;
 }
@@ -241,6 +259,8 @@ h2,h3 {
     border: 0;
     text-align: left;
     max-width: 700px;
+    min-width: 360px;
+    padding: -1em;
 }
 
 .cybordz #mc_embed_shell {
