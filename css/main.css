@@ -2,13 +2,18 @@ body {
     background-color: #171717;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Consolas, sans-serif;
     width: 100%;
 }
 
 .strip-container {
     position: relative;
     width: 100%;
+    padding: 1em;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .strip {
@@ -24,29 +29,27 @@ body {
 
 .strip p {
     line-height: 1.5em;
+    text-indent: 2em;
 }
 
-.in-development {
-    height: 100px;
-    line-height: 100px;
-    
-    background-color: #462617;
-    width: 100%;
-    text-align: center;
+.strip h2, h3, h4 {
+    color: #bfbaa6;
     padding: 0;
+    font-family: "Courier New", serif;
+    font-weight: bold;
 }
 
-.in-development .strip h2 {
-    color: #a7a490;
-    margin: 0;
-    padding: 0;
-    line-height: 100px;
-    font-family: 'Great Vibes', cursive;
+.strip h2 {
+    font-size: 24pt;
+    margin-bottom: 0.25em;
 }
 
-.in-development .strip {
-    height: 100px;
-    padding: 0;
+.strip h3 {
+    font-size: 20pt;
+}
+
+.strip h4 {
+    font-size: 15pt;
 }
 
 /* Cybordz */
@@ -57,12 +60,6 @@ body {
 
 .strip-container.cybordz {
     background-color: #070707;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    padding: 1em;
 }
 .strip-container.cybordz .strip {
     /*background: url("../images/cybordz/hex.png") repeat fixed top left;*/
@@ -76,16 +73,6 @@ body {
     max-width: 765px;
     height: auto;
     position: relative;
-}
-
-.strip-container.about {
-    height: 300px;
-    background-color: #2f2d29;
-}
-
-.strip h2 {
-    font-family: Arial, sans-serif;
-    margin-bottom: 20px;
 }
 
 #cybordz .strip-container.cybordz {
@@ -109,7 +96,7 @@ img.logo {
 }
 
 #heading {
-    height: 400px;
+    height: 430px;
 }
 
 #heading img {
@@ -123,22 +110,48 @@ img.logo {
     margin: 12px 0 0 0;
     padding: 0;
     font-size: 50pt;
-    color: #a7a490;
+    color: #bfbaa6;
     white-space: nowrap;
     /*text-shadow: 2px 2px 5px #69331b;*/
+}
+
+#heading.strip-container {
+    padding: 0;
+}
+
+#heading .strip {
+    padding: 2em;
+    height: 400px;
+}
+
+.transition {
+    width: 100%;
+    height: 30px;
+}
+
+.transition.top {
+    background-image: linear-gradient(to bottom, #171717, #070707);
+}
+
+.transition.bottom {
+    background-image: linear-gradient(to bottom, #070707, #171717);
 }
 
 a {
     text-decoration: none;
 }
 
+#footer.strip-container {
+    padding: 0;
+}
+
 #footer {
     height: 200px;
-    color: #a7a490;
+    color: #bfbaa6;
 }
 
 #footer div div {
-    color: #a7a490;
+    color: #bfbaa6;
 }
 
 #footer img {
@@ -164,11 +177,6 @@ a {
     font-size: 15pt;
     color: #a7a490;
     white-space: nowrap;
-}
-
-h2,h3 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 35pt;
 }
 
 #footer .strip {
@@ -234,22 +242,25 @@ h2,h3 {
     color: #CBF0FF;
 }
 
+
+.cybordz .strip h2 {
+    color: #52D6FC;
+}
+
 .cybordz h2 {
     font-size: 24pt;
     margin-top: 30px;
 }
 
-.cybordz h2,h3,h4 {
-    color: #52D6FC;
-    font-family: Consolas, serif
-}
-
-.cybordz h3.subtitle {
+.cybordz h1.subtitle {
     font-style: italic;
+    font-weight: normal;
     font-size: 13pt;
     max-width: 630px;
     margin: 15px auto;
     padding-bottom: 20px;
+    font-family: Consolas, serif;
+    color: #52D6FC;
 }
 
 #mc_embed_shell {
