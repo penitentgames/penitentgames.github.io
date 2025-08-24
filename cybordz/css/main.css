@@ -52,6 +52,46 @@ body {
     font-size: 15pt;
 }
 
+/* Privacy Policy */
+/*.strip-container.privacy-policy {*/
+/*    width: 800px; */
+/*    margin: 0 auto;*/
+/*}*/
+
+.privacy-policy > .strip {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.privacy-policy h3, h4 {
+    color: #abeeff;
+    text-align: left;
+}
+
+.privacy-policy h3 {
+    font-size: 17pt;
+}
+
+.privacy-policy p {
+    max-width: none;
+    text-align: justify;
+}
+
+.privacy-policy ul {
+    text-align: justify;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.privacy-policy a {
+    color: #CBF0FF;
+    text-decoration: underline;
+}
+
+.privacy-policy a:hover {
+    color: #FF009D;
+}
+
 /* Cybordz */
 .cybordz img.title {
     padding: 50px 50px 10px 50px;
