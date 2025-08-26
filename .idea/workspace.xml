@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17c3cbe2-90c6-4a19-95a4-31a2258aac32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cybordz/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/cybordz/confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cybordz/game-privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/cybordz/game-privacy-policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cybordz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cybordz/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756005233458</updated>
-      <workItem from="1756005234657" duration="7342000" />
+      <workItem from="1756005234657" duration="9119000" />
     </task>
     <servers />
   </component>
