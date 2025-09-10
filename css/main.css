@@ -9,11 +9,16 @@ body {
 .strip-container {
     position: relative;
     width: 100%;
-    padding: 2em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media (min-width: 400px) {
+    .strip-container {
+        padding: 2em;
+    }
 }
 
 .strip {
@@ -53,9 +58,17 @@ body {
 }
 
 /* Cybordz */
-.cybordz img.title {
-    padding: 50px 50px 10px 50px;
-    max-width: 800px;
+@media (min-width: 400px) {
+    .cybordz img.title {
+        padding: 50px 50px 10px 50px;
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cybordz img.title {
+        max-width: 400px;
+    }
 }
 
 .strip-container.cybordz {
@@ -106,11 +119,10 @@ img.logo {
 }
 
 #heading h1 {
-    font-family: 'Great Vibes', cursive;
     margin: 12px 0 0 0;
     padding: 0;
     font-size: 50pt;
-    color: #bfbaa6;
+    color: #101010;
     white-space: nowrap;
     /*text-shadow: 2px 2px 5px #69331b;*/
 }
@@ -120,8 +132,13 @@ img.logo {
 }
 
 #heading .strip {
-    padding: 2em;
     height: 400px;
+}
+
+@media (min-width: 400px) {
+    #heading .strip {
+        padding: 2em;
+    }
 }
 
 .transition {
@@ -147,7 +164,7 @@ a {
 
 #footer {
     height: 200px;
-    color: #bfbaa6;
+    color: #101010;
 }
 
 #footer div div {
@@ -272,7 +289,7 @@ a {
     border: 0;
     text-align: left;
     max-width: 700px;
-    min-width: 360px;
+    min-width: 300px;
     padding: -1em;
 }
 
