@@ -143,15 +143,15 @@ img.logo {
 
 .transition {
     width: 100%;
-    height: 10px;
+    height: 1px;
 }
 
 .transition.top {
-    background-image: linear-gradient(to bottom, #FAFAFA, #070707);
+    background-color: #00FF9A;
 }
 
 .transition.bottom {
-    background-image: linear-gradient(to bottom, #070707, #FAFAFA);
+    background-color: #00FF9A;
 }
 
 a {
