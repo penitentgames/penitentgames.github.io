@@ -72,7 +72,7 @@ body {
 }
 
 .strip-container.cybordz {
-    background-color: #070707;
+    background-color: #0A0F1A;
 }
 .strip-container.cybordz .strip {
     /*background: url("../images/cybordz/hex.png") repeat fixed top left;*/
@@ -262,7 +262,7 @@ a {
 
 
 .cybordz .strip h2 {
-    color: #52D6FC;
+    color: #00D4FF;
 }
 
 .cybordz h2 {
@@ -273,12 +273,12 @@ a {
 .cybordz h1.subtitle {
     font-style: italic;
     font-weight: normal;
-    font-size: 13pt;
+    font-size: 17pt;
     max-width: 630px;
     margin: 15px auto;
     padding-bottom: 20px;
     font-family: Consolas, serif;
-    color: #52D6FC;
+    color: #00FF9A;
 }
 
 #mc_embed_shell {
